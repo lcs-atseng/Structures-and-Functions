@@ -33,3 +33,6 @@ import Foundation
 */
 
 // Begin here... 
+func stortestDistance(from: Point, to: Line) -> Double {
+}
+

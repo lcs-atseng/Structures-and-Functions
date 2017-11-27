@@ -21,7 +21,12 @@ import Foundation
  Type the code that you see above. Then run the playground to try it out.
  */
 // Define the function here
-
+func greet(person: String) {
+    print("Hello, \(person)!A sincere pleasure to meet you on this very fine day")
+}
+greet(person: "Sara")
+// Prints:
+// Hello, Sara!
 
 // Now greet Sara by invoking the function
 
@@ -41,7 +46,11 @@ import Foundation
  
  */
 // Invoke the function many more times to greet five friends
-
+greet(person: "Jenn")
+greet(person: "Alice")
+greet(person: "Vic")
+greet(person: "Lisa")
+greet(person: "Rosa")
 /*:
  By encapsulating behaviour of a program inside a function, it is easier to maintain.
  

@@ -21,6 +21,17 @@ import Foundation
  Type the code that you see above. Then run the playground to try it out.
  */
 // Define the function here
+/// Calculate the distance between two points in a Cartesian plane.
+///
+/// - Parameters:
+///   - fromX: The abscissa (x-value) of the first point.
+///   - fromY: The ordinate (y-value) of the first point.
+///   - toX: The abscissa (x-value) of the second point.
+///   - toY: The ordinate (y-value) of the second point.
+/// - Returns: distance between first and second point.
+func  distance(fromX: Double, fromY: Double, toX: Double, toY: Double) -> Double {
+    return sqrt(pow(-3 , 2) + pow(-4, 2))
+}
 
 // Now invoke the function to calculate the distance between (0, 0) and (3, 4)
 // NOTE: Before you run the code, make a prediction about the distance between these two points.
